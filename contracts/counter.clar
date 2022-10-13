@@ -1,15 +1,23 @@
+;; Variables
+(define-data-var counter int 0)
 
-;; counter
-;; <add a description here>
+;; Get Counter Value
+(define-read-only (get-counter)
+  (ok (var-get counter))
+)
 
-;; constants
-;;
+;; Increment the Counter Value
+(define-public (increment)
+  (begin
+    (var-set counter (+ (var-get counter) 1))
+    (ok (var-get counter))
+  )
+)
 
-;; data maps and vars
-;;
-
-;; private functions
-;;
-
-;; public functions
-;;
+;; Decrement the Counter value
+(define-public (decrement)
+  (begin
+    (var-set counter (- (var-get counter) 1))
+    (ok (var-get counter))
+  )
+)
