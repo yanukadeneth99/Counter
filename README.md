@@ -2,6 +2,6 @@
 
 A counter that increments and decrements when a principal user interacts.
 
-## Code
+## Tests
 
-![Counter_Clarity](https://i.imgur.com/JWDu0ew.png)
+![Tests](https://i.imgur.com/JWDu0ew.png)
