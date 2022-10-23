@@ -1,5 +1,7 @@
 # Counter
 
-![Counter_Clarity](https://i.imgur.com/JWDu0ew.png)
+A counter that increments and decrements when a principal user interacts.
 
-Project in Clarity. [Origin](https://docs.hiro.so/tutorials/clarity-counter).
+## Code
+
+![Counter_Clarity](https://i.imgur.com/JWDu0ew.png)
